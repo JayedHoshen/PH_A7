@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend", "travel"],
+    "bio": "Met during university orientation in Dhaka. We still plan short hiking and photography trips together whenever possible.",
+    "goal": 14,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 2,
+    "name": "Arif Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arif.hasan.dev@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["developer", "gaming", "best friend"],
+    "bio": "Worked together on several MERN stack projects. Usually play online games together on weekends.",
+    "goal": 10,
+    "next_due_date": "2026-05-14"
+  },
+  {
+    "id": 3,
+    "name": "Emily Carter",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "emily.carter@outlook.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["work", "design", "creative"],
+    "bio": "Former coworker from a freelance UI/UX project. Loves discussing modern web design trends and startups.",
+    "goal": 12,
+    "next_due_date": "2026-05-08"
+  },
+  {
+    "id": 4,
+    "name": "Nafis Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "nafis.rahman@yahoo.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["school friend", "football", "local"],
+    "bio": "Childhood friend from Gazipur. We used to play football every evening after school.",
+    "goal": 15,
+    "next_due_date": "2026-05-05"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Bennett",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "olivia.bennett@mail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["book club", "coffee", "writer"],
+    "bio": "Met through an online book discussion community. Frequently exchange book recommendations and productivity tips.",
+    "goal": 14,
+    "next_due_date": "2026-05-13"
+  },
+  {
+    "id": 6,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "tanvir.ahmed.bd@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "tech", "startup"],
+    "bio": "Always shares new startup ideas and AI tools. We often brainstorm business concepts late at night.",
+    "goal": 14,
+    "next_due_date": "2026-05-07"
+  },
+  {
+    "id": 7,
+    "name": "Sophia Lee",
+    "picture": "https://randomuser.me/api/portraits/women/57.jpg",
+    "email": "sophia.lee@protonmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["photography", "travel", "online friend"],
+    "bio": "Connected through a photography forum. Enjoys street photography and cultural travel documentaries.",
+    "goal": 10,
+    "next_due_date": "2026-05-17"
+  },
+  {
+    "id": 8,
+    "name": "Mahmudul Karim",
+    "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "email": "mahmudul.karim@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["mentor", "career", "networking"],
+    "bio": "Senior developer who helped me prepare for programming contests and technical interviews during university.",
+    "goal": 14,
+    "next_due_date": "2026-05-02"
+  }
+]
