@@ -3,6 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import HomePage from "../pages/home/HomePage";
 import Timeline from "../pages/timeline/Timeline";
 import ErrorPage from "../error/ErrorPage";
+import FriendDetails from "../pages/friendDetails/FriendDetails";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ export const router = createBrowserRouter([
       {
         path: "/timeline",
         Component: Timeline,
+      },
+      {
+        path: "/friendDetails/:id",
+        Component: FriendDetails,
+        loader: () => fetch("/friendsData.json"),
       },
     ],
     errorElement: <ErrorPage></ErrorPage>,

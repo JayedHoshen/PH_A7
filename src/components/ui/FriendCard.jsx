@@ -1,18 +1,12 @@
+import { Link } from "react-router";
+
 const FriendCard = ({ friend }) => {
-  const {
-    id,
-    name,
-    picture,
-    email,
-    days_since_contact,
-    status,
-    tags,
-    bio,
-    goal,
-    next_due_date,
-  } = friend;
+  const { id, name, picture, days_since_contact, status, tags } = friend;
   return (
-    <div className="card bg-white shadow hover:shadow-2xl rounded-xl">
+    <Link
+      to={`/friendDetails/${id}`}
+      className="card bg-white shadow hover:shadow-2xl rounded-xl"
+    >
       <figure className="px-4 pt-4">
         <img src={picture} alt={name} className="w-24 h-24 rounded-full" />
       </figure>
@@ -34,7 +28,7 @@ const FriendCard = ({ friend }) => {
           </button>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

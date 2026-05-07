@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Friends from "../friends/Friends";
 
 const fetchFriends = async () => {
-  const res = await fetch("/friendSData.json");
+  const res = await fetch("/friendsData.json");
   return res.json();
 };
 
