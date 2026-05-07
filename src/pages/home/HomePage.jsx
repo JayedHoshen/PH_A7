@@ -1,8 +1,10 @@
+import Banner from "../../components/homepage/banner/Banner";
+
 const HomePage = () => {
   return (
-    <div className="bg-[#F8FAFC] py-20">
+    <div className="bg-[#F8FAFC] py-10 md:py-20">
       <div className="container mx-auto">
-        <h1 className="text-center">This is Home page</h1>
+        <Banner></Banner>
       </div>
     </div>
   );
