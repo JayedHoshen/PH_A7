@@ -1,9 +1,11 @@
+import { useContext } from "react";
 import { FiArchive, FiPhoneCall } from "react-icons/fi";
 import { HiOutlineBellSnooze } from "react-icons/hi2";
 import { IoVideocamOutline } from "react-icons/io5";
 import { MdOutlineTextsms } from "react-icons/md";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { useLoaderData, useParams } from "react-router";
+import { TimelineContext } from "../../context/TimelineProvider";
 
 const FriendDetails = () => {
   const friends = useLoaderData();
@@ -20,6 +22,9 @@ const FriendDetails = () => {
     goal,
     next_due_date,
   } = expectedFriend;
+
+  const { handleTimeline } = useContext(TimelineContext);
+
   return (
     <div className="bg-[#F8FAFC] p-4">
       <div className="container mx-auto py-10 lg:py-20">
@@ -108,15 +113,24 @@ const FriendDetails = () => {
                 Quick Check-In
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl">
+                <div
+                  onClick={() => handleTimeline("Call", name)}
+                  className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl"
+                >
                   <FiPhoneCall />
                   <span>Call</span>
                 </div>
-                <div className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl">
+                <div
+                  onClick={() => handleTimeline("Text", name)}
+                  className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl"
+                >
                   <MdOutlineTextsms />
                   <span>Text</span>
                 </div>
-                <div className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl">
+                <div
+                  onClick={() => handleTimeline("Video", name)}
+                  className="shadow hover:shadow-xl p-4 space-y-2 flex flex-col justify-center bg-gray-100 rounded-2xl items-center text-xl"
+                >
                   <IoVideocamOutline className="text-2xl" />
                   <span>Video</span>
                 </div>
