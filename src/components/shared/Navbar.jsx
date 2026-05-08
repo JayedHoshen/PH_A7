@@ -75,7 +75,7 @@ const Navbar = () => {
             <span className="text-black/70">Keeper</span>
           </Link>
         </div>
-        <div className="navbar-end hidden md:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
       </div>

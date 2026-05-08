@@ -1,10 +1,10 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
 import { toast } from "react-toastify";
 
 export const TimelineContext = createContext();
 
 const TimelineProvider = ({ children }) => {
-  let timeline = [];
+  let timelines = [];
   const handleTimeline = (status, name) => {
     const title = `${status} with ${name}`;
     const currentDate = new Date().toLocaleDateString("en-US", {
@@ -12,12 +12,12 @@ const TimelineProvider = ({ children }) => {
       day: "2-digit",
       year: "numeric",
     });
-    timeline.push({ status, title, currentDate });
+    timelines.push({ status, title, currentDate });
     toast.success(`Successfully ${status} with ${name}`);
   };
 
   const data = {
-    timeline,
+    timelines,
     handleTimeline,
   };
 
