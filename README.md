@@ -1,16 +1,96 @@
-# React + Vite
+# <div align="center">👥 KeenKeeper</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+✨ Keep Your Friendships Alive ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<br/>
 
-## React Compiler
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-Visit_Now-00C853?style=for-the-badge)](https://keenkeeperph7.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/💻_GitHub-Repository-181717?style=for-the-badge)](https://github.com/JayedHoshen/PH_A7)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📌 Project Name
+
+## 👥 KeenKeeper
+
+---
+
+# 🚀 Short Description
+
+KeenKeeper is a modern friendship management web application that helps users track communication history, manage friendship goals, and maintain meaningful relationships through Calls, Texts, and Video interactions.
+
+---
+
+# 🛠️ Technologies Used
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwindcss)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge)
+
+</div>
+
+---
+
+# ✨ Key Features
+
+### 🎯 Dynamic Friend Management
+
+Users can explore friend profiles with communication status and relationship goals.
+
+### 📜 Timeline Interaction System
+
+Call, Text, and Video interactions are automatically added to the timeline with real-time updates.
+
+### 📊 Friendship Analytics
+
+Interactive Pie Chart visualization using Recharts to analyze friendship interactions.
+
+---
+
+# ⚙️ Installation
+
+```bash
+git clone https://github.com/JayedHoshen/PH_A7.git
+
+cd PH_A7
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 📱 Responsive Design
+
+✅ Mobile  
+✅ Tablet  
+✅ Desktop
+
+---
+
+# 👨‍💻 Developer
+
+<div align="center">
+
+## HM Jayed
+
+[![GitHub](https://img.shields.io/badge/GitHub-JayedHoshen-181717?style=for-the-badge&logo=github)](https://github.com/JayedHoshen)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, give it a star on GitHub ⭐
+
+</div>
